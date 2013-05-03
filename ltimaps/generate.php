@@ -15,7 +15,7 @@
       }
 
       .form-signin {
-        max-width: 450px;
+        max-width: 430px;
         padding: 19px 29px 29px;
         margin: 0 auto 20px;
         background-color: #fff;
@@ -63,8 +63,8 @@
    $street = $_POST['address'];
    $city = $_POST['city'];
    $state= $_POST['state'];
-   $h= $_POST['h'];
-   $w= $_POST['w'];
+   $h= '320';
+   $w= '425';
 
    
    $address = $street.' '.$city.' '.$state;
@@ -72,7 +72,7 @@
   $map = urlencode("https://maps.google.com/maps?q=". $address ."&output=embed");
    
    ?>
- <center><h4 class="form-signin-heading">How's it look?</h4></center>
+<center>
    <?php
 
 echo "<iframe width='$w' height='$h' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com/maps?q=\"$address&output=embed'></iframe>
@@ -81,17 +81,18 @@ echo "<iframe width='$w' height='$h' frameborder='0' scrolling='no' marginheight
  ?>
  
 
-<center>
+
 
 
 <?php
 $url = $_GET["url"]; 
 
-$hw = '&width=' . $h .'&height=' . $w ; 
+$hw = '&width=' . $w .'&height=' . $h ; 
 
 echo "<a href='" . $url . "?embed_type=iframe&url=" . $map . $hw . "'class='btn btn-block btn-success'> Embed it!</a>"; 
 ?>
-
+<br>
+<p class="text-success">You can resize the map once it's embedded </P>
 
 
 </center>

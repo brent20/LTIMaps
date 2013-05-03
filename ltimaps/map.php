@@ -15,7 +15,7 @@
       }
 
       .form-signin {
-        max-width: 290px;
+        max-width: 490px;
         padding: 19px 29px 29px;
         margin: 0 auto 20px;
         background-color: #fff;
@@ -84,7 +84,7 @@ include_once("analyticstracking.php")
 
 <center><h4 class="form-signin-heading">Insert a Map!</h4></center>
 <tr>
-<td>Street Address
+<td>Street Address or Place
 <input type="text" class="input-block-level" name="address" placeholder="123 Canvas Avenue"/></td>
 </tr>
 
@@ -92,9 +92,9 @@ include_once("analyticstracking.php")
 <tr>
 
 
-<input type="text" class="input-block-level" name="city" placeholder="Omaha"/></td>
+<input type="text" class="input-block-level" name="city" /></td>
 </tr>
-<center><select name="state"> 
+<center><select multiple="multiple" name="state"> 
 <option value="" selected="selected">Select a State</option> 
 <option value="AL">Alabama</option> 
 <option value="AK">Alaska</option> 
@@ -150,7 +150,7 @@ include_once("analyticstracking.php")
 </select></center>
 </tr>
 <BR>
-<td><center>Height <input type="text" class="input-mini" name="h" placeholder="425"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Width <input type="text" class="input-mini" name="w" placeholder="350"/></center></td>
+<td> <!-- <center>Height <input type="text" class="input-mini" name="h" placeholder="425"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Width <input type="text" class="input-mini" name="w" placeholder="350"/></center></td> -->
 </tr>
 
 
