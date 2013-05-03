@@ -94,7 +94,7 @@ include_once("analyticstracking.php")
 
 <input type="text" class="input-block-level" name="city" /></td>
 </tr>
-<center><select multiple="multiple" name="state"> 
+<center><select name="state"> 
 <option value="" selected="selected">Select a State</option> 
 <option value="AL">Alabama</option> 
 <option value="AK">Alaska</option> 
