@@ -155,7 +155,7 @@ include_once("analyticstracking.php")
 
 
 <tr>
-<center> <button class="btn btn-large btn-block btn-success" type="submit"><i class="icon-map-marker icon-white"></i> Create my map</button></center></td>
+<center> <button class="btn btn-large btn-block btn-success" data-loading-text="Generating..." type="submit"><i class="icon-map-marker icon-white"></i> Create my map</button></center></td>
 
   
 </td>
