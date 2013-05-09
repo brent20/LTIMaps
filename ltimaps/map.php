@@ -82,7 +82,7 @@ include_once("analyticstracking.php")
 <form method="post" name="update" action="generate.php?url= <?php echo $return_url?>"  class="form-signin" />
 
 
-<center><h4 class="form-signin-heading">Insert a Map!</h4></center>
+<center><h4 class="form-signin-heading">Insert a Map</h4></center>
 <tr>
 <td>Street Address or Place
 <input type="text" class="input-block-level" name="address" placeholder="123 Canvas Avenue"/></td>
