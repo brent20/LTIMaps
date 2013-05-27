@@ -15,7 +15,6 @@
     <blti:extensions platform="canvas.instructure.com">
       <lticm:property name="tool_id">LTI_Maps_71364</lticm:property>
       <lticm:property name="privacy_level">anonymous</lticm:property>
-      <lticm:property name="domain">ltimaps.aws.af.cm</lticm:property>
       <lticm:options name="editor_button">
         <lticm:property name="url">https://ltimaps.aws.af.cm/ltimaps/map.php </lticm:property>
         <lticm:property name="icon_url">https://ltimaps.aws.af.cm/ltimaps/maps.png</lticm:property>
