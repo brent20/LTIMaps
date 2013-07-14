@@ -18,15 +18,7 @@
       <lticm:options name="editor_button">
         <lticm:property name="url">https://ltimaps.aws.af.cm/ltimaps/map.php </lticm:property>
         <lticm:property name="icon_url">https://ltimaps.aws.af.cm/ltimaps/maps.png</lticm:property>
-        <lticm:property name="text">LTI Maps</lticm:property>
-        <lticm:property name="selection_width">525</lticm:property>
-        <lticm:property name="selection_height">510</lticm:property>
-        <lticm:property name="enabled">true</lticm:property>
-      </lticm:options>
-      <lticm:options name="resource_selection">
-        <lticm:property name="url">https://ltimaps.aws.af.cm/ltimaps/map.php </lticm:property>
-        <lticm:property name="icon_url">https://ltimaps.aws.af.cm/ltimaps/maps.png</lticm:property>
-        <lticm:property name="text">LTI Maps</lticm:property>
+        <lticm:property name="text">Google Maps</lticm:property>
         <lticm:property name="selection_width">525</lticm:property>
         <lticm:property name="selection_height">510</lticm:property>
         <lticm:property name="enabled">true</lticm:property>
